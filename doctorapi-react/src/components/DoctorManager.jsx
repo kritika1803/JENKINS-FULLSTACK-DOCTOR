@@ -140,7 +140,7 @@ const DoctorManager = () => {
   };
 
   return (
-    <div className="employee-container">
+    <div className="doctor-container">
 
       {message && (
         <div className={`message-banner ${message.toLowerCase().includes('error') ? 'error' : 'success'}`}>
