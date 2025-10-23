@@ -46,7 +46,7 @@ pipeline {
                 TOMCAT_WEBAPPS="/Users/chilakakritikareddy/Desktop/SOFTWARE/apache-tomcat-10.1.43/webapps"
                 rm -f "$TOMCAT_WEBAPPS/springbootdoctorapi.war"
                 rm -rf "$TOMCAT_WEBAPPS/springbootdoctorapi"
-                cp DOCTORAPI-SPRINGBOOT/target/*.war "$TOMCAT_WEBAPPS/"
+                cp DOCTORAPI-SPRINGBOOT/target/DOCTORAPI-SPRINGBOOT-0.0.1-SNAPSHOT.war "$TOMCAT_WEBAPPS/springbootdoctorapi.war"
                 '''
             }
         }
